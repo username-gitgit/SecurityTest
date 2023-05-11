@@ -26,8 +26,8 @@
 	
 	<context:component-scan base-package="kill.sec.controller" />
 	
-	 <!-- com.example.security 하위에 있는 파일들을 다 빈으로 등록하고 찾아서 맵핑을 시킨다는 의미 -->
-    <context:component-scan base-package="kill.sec.security" />
+	<!-- com.example.security 하위에 있는 파일들을 다 빈으로 등록하고 찾아서 맵핑을 시킨다는 의미 -->
+    <context:component-scan base-package="kill.sec.config" />
     
     <!-- @Secured 어노테이션 활성화, 사용 권한 제한 -->
     <security:global-method-security
